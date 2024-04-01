@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="CRUD.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Management System</h1>
+        <form id="studentForm">
+            <input type="hidden" id="studentId">
+            <label for="studentName">Name:</label>
+            <input type="text" id="studentName" required>
+            <label for="studentAddress">Address:</label>
+            <input type="text" id="studentAddress" required>
+            <label for="profilePicture">Profile Picture:</label>
+            <input type="text" id="profilePicture" required>
+            <button type="submit" id="submitButton">Save</button>
+        </form>
+        <div id="studentList"></div>
+    </div>
+
+    <script src="CRUD.js"></script>
+</body>
+</html>

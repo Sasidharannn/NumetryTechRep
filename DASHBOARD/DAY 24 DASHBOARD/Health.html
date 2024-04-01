@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Healthcare Management</h1>
+  </header>
+
+  <section id="bmi">
+    <h2>BMI Calculator</h2>
+    <form id="bmiForm">
+      <label for="height">Height (cm):</label>
+      <input type="number" id="height" placeholder="Enter height" required>
+      <label for="weight">Weight (kg):</label>
+      <input type="number" id="weight" placeholder="Enter weight" required>
+      <button type="submit">Calculate BMI</button>
+    </form>
+    <div id="result"></div>
+  </section>
+
+  <section id="exercise">
+    <h2>Gym Exercises</h2>
+    <p>Here are some gym exercises you can try:</p>
+    <ul>
+      <li>Chest Press</li>
+      <li>Squats</li>
+      <li>Deadlifts</li>
+      <!-- Add more exercises as needed -->
+    </ul>
+  </section>
+
+  <section id="yoga">
+    <h2>Yoga Information</h2>
+    <p>Yoga is a great way to improve flexibility and reduce stress. Here are some basic yoga poses:</p>
+    <ul>
+      <li>Downward-Facing Dog</li>
+      <li>Tree Pose</li>
+      <li>Warrior Pose</li>
+      <!-- Add more yoga poses as needed -->
+    </ul>
+  </section>
+
+  <section id="nutrition">
+    <h2>Nutrition Diet Plan</h2>
+    <p>Here are some nutrition diet plans based on different BMI:</p>
+    <div id="dietPlans"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

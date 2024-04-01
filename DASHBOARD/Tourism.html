@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel and Tourism</title>
+  <link rel="stylesheet" href="page.css">
+</head>
+<body>
+
+  <header>
+    <h1>Explore the World</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="slideshow-container">
+    <div class="slideshow">
+      <img src="image1.jpg" class="slide">
+      <img src="image2.jpg" class="slide">
+      <img src="image3.jpg" class="slide">
+      <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+      <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+  </section>
+
+  <section class="booking-form">
+    <h2>Book Your Trip Now</h2>
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <input type="text" placeholder="Destination">
+      <input type="date" placeholder="Date">
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Travel and Tourism. All rights reserved.</p>
+  </footer>
+
+  <script src="page.js"></script>
+</body>
+</html>

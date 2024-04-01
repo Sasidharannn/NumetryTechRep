@@ -1,0 +1,98 @@
+/* Dashboard Container */
+.dashboard-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fffefe;
+}
+
+/* Header */
+.dashboard-header {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #6cd327;
+  color: #fff;
+  width: 250px;
+  flex-shrink: 0;
+}
+
+/* Sidebar Links */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar li:hover {
+  background-color: #777;
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Cards */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+
+/* Footer */
+.dashboard-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Dynamic Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
